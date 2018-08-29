@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\le.viet.hung\\source\\repos\\TestFileStream\\TestFileStream\\TestFileStream.csproj",
+      "projectUniqueName": "C:\\Users\\le.viet.hung\\source\\repos\\TestFileStream2\\TestFileStream\\TestFileStream.csproj",
       "projectName": "TestFileStream",
-      "projectPath": "C:\\Users\\le.viet.hung\\source\\repos\\TestFileStream\\TestFileStream\\TestFileStream.csproj",
+      "projectPath": "C:\\Users\\le.viet.hung\\source\\repos\\TestFileStream2\\TestFileStream\\TestFileStream.csproj",
       "packagesPath": "C:\\Users\\le.viet.hung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\le.viet.hung\\source\\repos\\TestFileStream\\TestFileStream\\obj\\",
+      "outputPath": "C:\\Users\\le.viet.hung\\source\\repos\\TestFileStream2\\TestFileStream\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
