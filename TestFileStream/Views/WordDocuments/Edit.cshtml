@@ -1,0 +1,34 @@
+﻿@model TestFileStream.Models.WordDocument
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>WordDocument</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div>Update new content for file name: @Model.Title@Model.FileType</div>
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Guid" />
+            
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <input name="file" class="form-control" type="file"/>
+            </div>
+
+            
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
